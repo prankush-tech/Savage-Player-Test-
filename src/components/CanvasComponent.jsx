@@ -27,7 +27,7 @@ const CanvasComponent = () => {
     }} />
 				<Canvas>
 					<Suspense>
-						{/* <Perf /> */}
+						<Perf position={"top-left"} />
 						<OrbitControls maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2.5} />
 						<Environment files={'day.hdr'} path={'/'} background />
 						<Ocean />
