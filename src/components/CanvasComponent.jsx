@@ -33,7 +33,7 @@ const CanvasComponent = () => {
 						<Ocean />
 						<Physics>
 							<KeyboardControls map={keyboardMap}>
-								<Ecctrl  turnSpeed={10} maxVelLimit={4} jumpVel={3} camInitDis={-10} animated>
+								<Ecctrl  turnSpeed={10} maxVelLimit={4} jumpVel={4} camInitDis={-10} animated>
 									<EcctrlAnimation characterURL={characterURL2} animationSet={animationSet}>
 										<RigidBody>
 											{/* <Model /> */}
